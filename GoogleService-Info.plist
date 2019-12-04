@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>232095424833-air9vln7kado70g69gu6p77tucbgh1id.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.232095424833-air9vln7kado70g69gu6p77tucbgh1id</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAcI8Tb5nOGhOEPaxbfDwoyP1bauoaZgAQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>232095424833</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>gm.ios.MyRoutine</string>
+	<key>PROJECT_ID</key>
+	<string>myroutine-8efc5</string>
+	<key>STORAGE_BUCKET</key>
+	<string>myroutine-8efc5.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:232095424833:ios:67477eb275db7ce6</string>
+	<key>DATABASE_URL</key>
+	<string>https://myroutine-8efc5.firebaseio.com</string>
+</dict>
+</plist>

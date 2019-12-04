@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14135" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Exercise" representedClassName="Exercise" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rep" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="set" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="workout_routine" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Workout_Routine" inverseName="exercise" inverseEntity="Workout_Routine" syncable="YES"/>
+    </entity>
+    <entity name="Log" representedClassName="Log" syncable="YES" codeGenerationType="class">
+        <attribute name="date_added" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="workout_routine" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Workout_Routine" inverseName="log" inverseEntity="Workout_Routine" syncable="YES"/>
+    </entity>
+    <entity name="Workout_Routine" representedClassName="Workout_Routine" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="exercise" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Exercise" inverseName="workout_routine" inverseEntity="Exercise" syncable="YES"/>
+        <relationship name="log" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Log" inverseName="workout_routine" inverseEntity="Log" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Exercise" positionX="-36" positionY="18" width="128" height="105"/>
+        <element name="Log" positionX="-45" positionY="45" width="128" height="90"/>
+        <element name="Workout_Routine" positionX="-54" positionY="-9" width="128" height="105"/>
+    </elements>
+</model>
